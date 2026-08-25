@@ -1,56 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="VolleyScore is an offline-first volleyball match companion for parents, volunteers, and coaches.">
   <title>VolleyScore</title>
-  <link rel="stylesheet" href="/volleyscore/assets/style.css">
+  <link rel="stylesheet" href="/volleyscore/style.css">
 </head>
 <body>
   <div class="container">
-    <div class="nav">
-      <div class="brand">VolleyScore</div>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="brand"><a href="/volleyscore/">VolleyScore</a></div>
       <div class="links">
         <a href="/volleyscore/support/">Support</a>
         <a href="/volleyscore/privacy/">Privacy</a>
       </div>
-    </div>
+    </nav>
 
-    <div class="hero">
-      <span class="badge">Volleyball Scoreboard</span>
+    <header class="hero">
+      <p class="eyebrow">VOLLEYBALL, WITHOUT THE CLIPBOARD</p>
       <h1>VolleyScore</h1>
-      <p class="muted">A simple, fast scoreboard for parents and coaches. Swipe to update scores. Track games won. Built for iPhone and iPad.</p>
-      <hr>
-      <p>
-        Need help? Visit <a href="/volleyscore/support/">Support</a> or email
-        <a href="mailto:hnfdevs@gmail.com">hnfdevs@gmail.com</a>.
-      </p>
-    </div>
+      <p class="muted">Keep the score, follow the momentum, and send the family a clean recap.</p>
+      <p>VolleyScore is an offline-first match companion built for parents, volunteers, and coaches. Start quickly, score every rally with one hand, undo mistakes, celebrate set wins, and save thoughtful match reports.</p>
+    </header>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Support</h3>
-        <p class="muted">FAQ, troubleshooting, and purchase restore steps.</p>
-        <p><a href="/volleyscore/support/">Go to Support →</a></p>
-      </div>
+    <main>
+      <section class="card">
+        <h2>Parent Mode</h2>
+        <p>Fast team setup, volleyball set scoring, swipe or button controls, clear undo, tactile feedback, celebrations, match photos, and shareable family recaps.</p>
+      </section>
 
-      <div class="card">
-        <h3>Privacy</h3>
-        <p class="muted">Clear privacy policy aligned with App Store requirements.</p>
-        <p><a href="/volleyscore/privacy/">Read Privacy Policy →</a></p>
-      </div>
+      <section class="card">
+        <h2>Advanced Coach Stats</h2>
+        <p>Optionally tag rally outcomes without slowing down scoring. Review point sources, lost-point causes, serving and scoring runs, rotation differentials, trend graphs, coach notes, photos, and a polished post-match report.</p>
+      </section>
 
-      <div class="card">
-        <h3>Contact</h3>
-        <p class="muted">For questions, bug reports, or feedback:</p>
-        <p><a href="mailto:hnfdevs@gmail.com">hnfdevs@gmail.com</a></p>
-      </div>
-    </div>
+      <section class="card">
+        <h2>Private by design</h2>
+        <p>No login. No in-match ads. Match information stays on your device unless you explicitly choose to share it.</p>
+        <p><a href="/volleyscore/privacy/">Read the Privacy Policy →</a></p>
+      </section>
 
-    <div class="footer">
-      <p>© <span id="y"></span> VolleyScore. All rights reserved.</p>
-      <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
-    </div>
+      <section class="card">
+        <h2>Need help?</h2>
+        <p>Visit <a href="/volleyscore/support/">VolleyScore Support</a> or email <a href="mailto:hnfdevs@gmail.com">hnfdevs@gmail.com</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 hnfdevs. All rights reserved.</p>
+    </footer>
   </div>
 </body>
 </html>
